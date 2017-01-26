@@ -2,20 +2,20 @@
 <html lang="en">
 	<head>
 		<title>Color Translator</title>
-		<link type="text/stylesheet" rel="stylesheet" href="stylesheets/stylesheet.css">
+		<link rel="stylesheet" href="stylesheets/stylesheet.css">
 		<meta charset="utf-8">
 		<script src="scripts/script.js"></script>
 	</head>
 	<body>
 		<h1>Color Translator</h1>
 		<div>
-			<label for="color">Enter Hexadecimal number</label>
+			<label for="color">Enter Hexadecimal number (for example #FF443A)</label>
 			<input name="color" id="color" type="text" onkeypress="translateColor(event)">
 			<button onclick="translateColor()">
 				Translate</button>
-		</div>	
+		</div>
 		<div id="colorBox" class="box"></div>
-		
+
 	</body>
-	
+
 </html>
